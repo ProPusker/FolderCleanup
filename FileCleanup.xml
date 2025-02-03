@@ -1,0 +1,12 @@
+<Settings>
+    <RootPath>D:\CorporateData</RootPath>
+    <Smtp>
+        <Username>alerts@company.com</Username>
+        <EncodedPassword>BASE64_ENCODED_PASSWORD</EncodedPassword>
+    </Smtp>
+    <CleanupRules>
+        <Rule Path="*\temp\*" RetentionDays="30"/>
+        <Rule Path="*\archives\*" RetentionDays="365"/>
+        <Rule Path="*\logs\*" RetentionDays="180"/>
+    </CleanupRules>
+</Settings>
