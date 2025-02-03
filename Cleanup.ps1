@@ -5,8 +5,7 @@
     This script cleans up old files based on configurable rules with logging and email notifications
 .NOTES
     Version: 2.0
-    Author: AI Assistant
-    Modified: 2023-10-15
+    Modified: 2023-09-20
 #>
 
 #region Initialization
